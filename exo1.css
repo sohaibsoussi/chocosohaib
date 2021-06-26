@@ -1,0 +1,135 @@
+*{
+    overflow: auto;
+}
+body{
+    background-color: rgb(172, 149, 149);
+    font-family: Arial;
+    margin: 0px;
+}
+p.categorie{
+    background-color: rgb(68, 46, 37);
+    color: cornsilk;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 18px;
+    margin-bottom: 0;
+    margin-top: -15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.categorie{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+h2{
+    background-color: rgb(68, 46, 37);
+    color: cornsilk;
+    display: block;
+}
+div.contenu{
+    background-color: #f0eae7;
+    margin: 60px 10% 60px 10%;
+    padding: 0px 30px 30px 30px;
+    min-width: 350px;/*rq:si la fenetre deviens plus petite que 350px l'utilisateur doit scroler pour voir le suit de sa page*/
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+h1{
+    text-align: center;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    font-size: 15px;
+    display: inline-block;
+}
+div.description{
+    text-align: center;
+}
+div.separateur{
+    width: 200px;
+    height: 2px;
+    background-color: rgba(58, 26, 17, 0.596);
+    margin-left: auto;
+    margin-right: auto;
+}
+.ctrimg{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+    min-height: 200px;
+    background-color: rgba(71, 34, 34, 0.363);
+}
+div.info{
+    position: relative;
+}
+table.info{
+    position: absolute;
+    background-color:rgba(58, 26, 17, 0.596);
+    top:0px;
+    width: 100%;
+    color:rgb(223, 209, 209);
+    height: 70px;
+}
+table.info td{
+    text-align: center;
+    font-size: 15px;
+    vertical-align: top;
+}
+table.info th{
+    font-size: 17px;
+    vertical-align: bottom;
+    padding: 3px;
+}
+div.colonne{
+    width: 45%;
+    margin-top: 20px;
+}
+div.colonne1{
+    display: inline-block;
+    margin-right:10% ;
+}
+div.colonne2{
+    float: right;
+}
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 10px solid rgba(121, 103, 64, 0.356);
+}
+p.cadrant1{
+    text-align: center;
+    border: 5px solid rgba(179, 117, 75, 0.527);
+    padding: 5px;
+    font-size: medium;
+    margin-top: 4px;
+    margin-bottom: 0%;
+}
+table.preparation p.numero{
+    background-color: rgba(112, 71, 43, 0.527);
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 10px 100px /120px; 
+    margin: 0%;
+}
+table.preparation td{
+    vertical-align:1px ;
+}
+table.preparation td.preparation{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+tr.preparationtr{
+    height: 40px;
+}
